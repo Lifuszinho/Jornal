@@ -59,16 +59,19 @@ article a:hover {
     border-bottom: 2px solid white;
     text-decoration: none;
 }
+article :visited {
+    color: rgb(23, 111, 243);
+    border:rgb(23, 111, 243) solid;
+}
 footer {
     background-color: rgb(126, 126, 126);
     color: white;
     font-size: 20px;
     text-align: center;
 }
-
 #Animação:hover{
     animation: 2000ms ease infinite;
     transform: scale(1.2);
     transition: ease 2000ms;
-
+}
 
